@@ -1,0 +1,141 @@
+* {
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 500;
+  line-height: 1.2;
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  font-size: 16px;
+  letter-spacing: .0625em;
+}
+
+.header {
+  background-color: #a0bed0;
+  padding: 0 80px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.container {
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
+}
+.menu__link {
+  padding: 2rem 1.5rem;
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.banner {
+  background-image: url("../imagens/foto-banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  padding-top: 178px;
+  text-align: center;
+}
+
+.banner__titulo {
+  font-size: 105px;
+  color: rgba(255, 255, 255, .9);
+  text-transform: uppercase;
+  letter-spacing: .8rem;
+  margin-top: 0;
+  margin-bottom: 0;
+
+}
+
+.banner__subtitulo {
+  font-size: 22px;
+  color: rgba(255, 255, 255, .7);
+  margin-bottom: 3rem;
+}
+
+.banner__botao {
+  text-align: center;
+  padding: 15px 40px;
+  text-decoration: none;
+  color: white;
+  background-color: #829dad;
+  letter-spacing: .15rem;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.sobre {
+  text-align: center;
+  background-color:#454545;
+  padding: 5rem;
+
+  }
+
+.sobre__titulo {
+  color: white;
+ margin-bottom: 1.5rem;
+}
+.sobre__descricao {
+  color: rgba(255,255,255,.5);
+}
+
+.destinos {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.destinos--dark {
+  background-color: black;
+}
+
+.destinos--dark .destinos__texto {
+  color: white;
+}
+.destinos__texto {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.destinos__texto--right {
+  text-align: right;
+}
+
+
+.col-70 {
+  width: 70%;
+}
+
+.col-50 {
+  width: 50%;
+}
+
+.col-30 {
+  width: 30%;
+}
+
+
